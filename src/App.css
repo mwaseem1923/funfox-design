@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,105 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.story-writing-elements-container {
+  line-height: 1.5;
+  font-family: 'Times New Roman', serif;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+  color: rgb(33, 33, 33);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 20px 0;
+  border-top: 2px solid #666;
+  padding: 5px 0;
+  display: inline-block;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.text-content {
+  text-align: justify;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 2px solid #666;
+  padding-left: 20px;
+}
+
+.key-elements-list {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+  text-align: left;
+}
+
+.key-elements-list li {
+  padding: 5px;
+  margin: 5px;
+  padding-left: 20px;
+  background-image: linear-gradient(to right, #56a6ff, #36b0ff);
+  background-repeat: no-repeat;
+  background-size: 10px 15px;
+  background-position: 0px 7px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.key-elements-list li::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  width: 8px;
+  height: 8px;
+  background-color: #36b0ff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 1px solid #666;
+}
+
+.last-text-content {
+  text-align: center;
+  border-left: 2px solid #666;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.box-container {
+  margin: 20px 0;
+}
+
+.box-container h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.box-container outline {
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 500px;
+  color: rgb(33, 33, 33);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  outline: 1px solid #ddd;
 }
