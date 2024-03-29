@@ -36,29 +36,66 @@
     transform: rotate(360deg);
   }
 } */
+.App {
+  font-family: "Times New Roman", serif;
+  width: 80%;
+  margin: 1rem auto;
+  /* padding: 4rem; */
+  max-width: 800px;
+  background-color: #f8d1e0;
+  color: rgb(33, 33, 33);
 
-.logo{
+  background-image: url("../public/assets/left-curve.png"),
+    url("../public/assets/right-curve.svg");
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+}
+.App::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  background-size: contain; /* Maintain aspect ratio */
+}
+
+/* Set the width and height of the second background image */
+.App::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  background-size: cover; /* Cover the entire area */
+}
+.logo {
   transform: rotate(-20deg);
 }
-.setting{
-  background-image: url('./logo.svg');
+.setting {
+  background-image: url("./logo.svg");
   background-repeat: no-repeat;
 }
 
-.story-writing-elements-container {
-  line-height: 1.5;
-  font-family: 'Times New Roman', serif;
-  width: 80%;
-  margin: 1rem auto;
-  padding: 1rem;
-  max-width: 800px;
-  background-color: #F8D1E0;
-  color: rgb(33, 33, 33);
-  
-    background-image:  url('../public/assets/left-curve.png'), url('../public/assets/right-curve.svg');
-    background-position: left bottom, right bottom;
-    background-repeat: no-repeat;
-    /* padding: 15px; */
+.main {
+  /* line-height: 1.5; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.left-bg-img,
+.right-bg-img {
+  width: 70px;
+  height: 400px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .title {
@@ -67,22 +104,22 @@
   font-weight: 700;
   margin: 20px 0;
 }
-.inner-container{
-  background-color: #F7F9FE;
-  border-radius: .5rem;
+.main-content {
+  background-color: #f7f9fe;
+  border-radius: 0.5rem;
   border: 1px solid #000000;
-  padding: .5rem;
+  padding: 0.5rem;
   /* box-shadow: 0 5px 0 rgb(220, 216, 216); */
 }
 
 .subtitle {
-  background-color: #FE6784;
+  background-color: #fe6784;
   color: white;
   text-align: center;
   font-size: 1.2em;
   margin: 20px 0;
   /* border-top: 2px solid #666; */
-  border: 2px dashed #FFAEBE;
+  border: 2px dashed #ffaebe;
   border-radius: 2rem;
   padding: 5px 0;
   display: inline-block;
@@ -96,9 +133,12 @@
   margin: 10px 0;
   /* border-left: 2px solid #666; */
   padding-left: 20px;
-  background-color: #25A3A1;
+  background-color: #25a3a1;
   color: white;
-  border: 2px dashed #A4FDFB;
+  border: 2px dashed #a4fdfb;
+  display: flex;
+  gap: .75rem;
+  max-height:75px;
 }
 
 .key-elements-list {
@@ -106,7 +146,8 @@
   margin: 5px;
   padding: 0;
   text-align: left;
-  display: flex;justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -136,12 +177,11 @@
   -webkit-border-radius: 50%;
   border: 1px solid #666;
 } */
-.last{
-  background-color: #FFF7ED;
-  box-shadow: 0 5px #A48A7B;
-  border: 4px solid #FE6784;
-  border-radius:.5rem ;
-  
+.last {
+  background-color: #fff7ed;
+  box-shadow: 0 5px #a48a7b;
+  border: 4px solid #fe6784;
+  border-radius: 0.5rem;
 }
 .last-text-content {
   text-align: center;
@@ -163,7 +203,7 @@
 
 .box-container outline {
   line-height: 1.5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   margin: 0 auto;
   max-width: 500px;
@@ -174,8 +214,16 @@
   /* border: 1px solid #ddd; */
   /* outline: 1px solid #ddd; */
 }
-.flex-controlls{
+.flex-controlls {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.App-header,.footer {
+  /* border: 2px solid darkblue; */
+  height: 60px;
+}
+.footer{
+  margin: 0 70px;
 }
