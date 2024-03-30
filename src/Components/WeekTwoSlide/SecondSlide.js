@@ -17,13 +17,13 @@ export default function SecondSlide() {
       <div className="dark-light-images">
         <div>
           <div className="borderd-img-holder">
-            <img src={BeachImage} />
+            <img src={BeachImage}  alt="Profile Icon"/>
           </div>
           <p>Sunny day at a beach</p>
         </div>
         <div>
           <div className="borderd-img-holder">
-            <img src={rainyNight} />
+            <img src={rainyNight}  alt="Profile Icon"/>
           </div>
           <p>A cold rainy night in a haunted house in October</p>
         </div>
@@ -41,15 +41,15 @@ export default function SecondSlide() {
         </div>
         <div className="flex">
             <span>Hint:</span>
-            <img src={watchIcon} />
-            <img src={homeIcon} />
+            <img src={watchIcon}  alt="Profile Icon"/>
+            <img src={homeIcon}  alt="Profile Icon"/>
         </div>
         </div>
         <div></div>
       </div>
       
         <p className="bg-info">
-          Setting is the time <img src={watchIcon} width={"25px"}/> and place <img src={homeIcon} width={"25px"}/> of a
+          Setting is the time <img src={watchIcon} width={"25px"}  alt="Profile Icon"/> and place <img src={homeIcon}  alt="Profile Icon" width={"25px"}/> of a
           story. It often answers the questions: when? and where?
         </p>
       

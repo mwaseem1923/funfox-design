@@ -9,13 +9,13 @@ export default function Footer({ slide, prev, next }) {
   return (
     <footer className="footer">
       <div className="flex-controlls">
-        <img src={profileIcon} />
+        <img src={profileIcon} alt="Profile Icon" />
         <div className="slide-controls">
-          <img src={prevSlideIcon} onClick={prev} />
+          <img src={prevSlideIcon}  alt="Profile Icon" onClick={prev} />
           <h1 className="slide-number">{slide}</h1>
-          <img src={nextSlideIcon} onClick={next} />
+          <img src={nextSlideIcon}  alt="Profile Icon" onClick={next} />
         </div>
-        <img src={infoIcon} />
+        <img src={infoIcon}  alt="Profile Icon" />
       </div>
     </footer>
   );

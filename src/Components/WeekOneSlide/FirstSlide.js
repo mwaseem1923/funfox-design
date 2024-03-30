@@ -18,7 +18,7 @@ export default function FirstSlide() {
           An element is an essential part of something and every fiction story
           has the same key elements :
         </p>
-        <img src={tutorImage} height={"100px"} />
+        <img src={tutorImage}  alt="Profile Icon" height={"100px"} />
       </div>
       <ul className="key-elements-list">
         <li className="setting">SETTING</li>
