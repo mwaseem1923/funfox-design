@@ -1,0 +1,16 @@
+.footer {
+    margin: 0 70px;
+  }
+  .slide-controls > img{
+    cursor: pointer;
+  }
+  .flex-controlls,.slide-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slide-number{
+    background-color: #CD3F97;
+    color: white;
+    padding:  0 1rem;
+  }

@@ -1,0 +1,179 @@
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  .main-content {
+    background-color: #f7f9fe;
+    border-radius: 0.5rem;
+    border: 1px solid #000000;
+    padding: 0.5rem;
+  }
+  
+  .subtitle {
+    background-color: #fe6784;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px dashed #ffaebe;
+    border-radius: 2rem;
+    padding: 5px 20px;
+    width: max-content;
+    margin: 0 auto;
+  }
+  
+  .text-content {
+    text-align: justify;
+    padding: 10px;
+    margin: 10px 0;
+    padding-left: 20px;
+    background-color: #25a3a1;
+    color: white;
+    border: 2px dashed #a4fdfb;
+    display: flex;
+    gap: 1.5rem;
+    max-height:75px;
+  }
+
+  .key-elements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: .25rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .key-elements-list > li {
+    min-width: 140px;
+    max-width: 200px;
+    width: calc(100% - 0.5rem); 
+    height: 100px; 
+    background-repeat: no-repeat;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .setting, .plot, .characters, .resolution, .problem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    padding: 1rem; 
+  }
+  
+  .setting {
+    background: url("../../Images/Frame.png") center / contain no-repeat;
+  }
+  
+  .characters {
+    background: url("../../Images/Frame2.png") center / contain no-repeat;
+  }
+  
+  .plot {
+    background: url("../../Images/Frame.png") center / contain no-repeat; 
+  }
+  
+  .problem {
+    background: url("../../Images/Frame4.png") center / contain no-repeat;
+  }
+  
+  .resolution {
+    background: url("../../Images/Frame2.png") center / contain no-repeat; 
+  }
+  
+  
+
+  .last {
+    background-color: #fff7ed;
+    box-shadow: 0 5px #a48a7b;
+    border: 4px solid #fe6784;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .box-container {
+    margin: 20px 0;
+  }
+  
+  .box-container h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .box-container outline {
+    line-height: 1.5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    color: rgb(33, 33, 33);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+   
+  }
+  
+  
+  
+
+  /* SecondSlide */
+  .dark-light-images{
+    margin: 0 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dark-light-images > div{
+    max-width: 200px;
+    text-align: center;
+  }
+  .borderd-img-holder{
+    padding: 1rem;
+    background-color: white;
+    border: 2px dashed #cccccc;
+  }
+  .input-fild{
+    border: 2px dashed lightgray;
+    padding: .5rem;
+    width: 70%;
+  }
+  .input-fild input{
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    width: 100%;
+  }
+  .input-fild input:hover, .input-fild input:focus{
+    border: none;outline: none;
+    border-bottom: 2px solid black;
+
+  }
+  .bg-info{
+    background-color: #25A3A1;
+    color: white;
+    border: 2px dashed #A4FDFB;
+    padding: .5rem;
+  }
+  .flex{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  @media (max-width: 768px){
+    .dark-light-images{
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,25 @@
+.App {
+    font-family: "Times New Roman", serif;
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f8d1e0;
+    color: rgb(33, 33, 33);
+  
+    background-image: url("../../Images/left-curve.png"),
+      url("../../Images/right-curve.svg");
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat;
+  }
+  .main {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media screen and (max-width:768px) {
+    .App{
+      margin: 0;
+      padding: .5rem;
+      width:100vw;
+    }
+  }
