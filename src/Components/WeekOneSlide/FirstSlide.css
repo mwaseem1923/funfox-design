@@ -146,19 +146,19 @@
     border: 2px dashed #cccccc;
   }
   .input-fild{
-    border: 2px dashed lightgray;
+    border: 2px dashed #B6B6B6;
     padding: .5rem;
     width: 70%;
   }
   .input-fild input{
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #B6B6B6;
     background: none;
     width: 100%;
   }
   .input-fild input:hover, .input-fild input:focus{
     border: none;outline: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #B6B6B6;
 
   }
   .bg-info{
@@ -171,6 +171,15 @@
     display: flex;
     gap: 1rem;
     align-items: center;
+  }
+  .setting-time-and-place{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--tertiary-color);
+    color: white;
+    border: 2px dashed var(--tertiary-color-border);
+    padding: .5rem 1rem;
   }
 
   @media (max-width: 768px){

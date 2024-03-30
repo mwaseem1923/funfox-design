@@ -45,7 +45,7 @@ export default function SecondSlide() {
         <div></div>
       </div>
 
-      <p className="flex">
+      <p className="setting-time-and-place">
         <span>Setting is the time</span>
         <img src={watchIcon} width={"25px"} alt="Watch Icon" /> 
         <span>and place</span>
