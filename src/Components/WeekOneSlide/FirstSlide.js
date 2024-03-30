@@ -3,9 +3,9 @@ import tutorImage from "../../Images/tutor.png";
 
 export default function FirstSlide() {
   return (
-    <div className="main-content">
-      <h2 className="subtitle">Week 1 Elements of Story Writing</h2>
-      <p className="">
+    <div className="slide-content">
+      <h2 className="slide-title">Week 1 Elements of Story Writing</h2>
+      <p className="slide-description">
         Welcome to term 2 of Writers Club. Are you excited for this amazing
         journey?
         <br />
@@ -18,7 +18,7 @@ export default function FirstSlide() {
           An element is an essential part of something and every fiction story
           has the same key elements :
         </p>
-        <img src={tutorImage}  alt="Profile Icon" height={"100px"} />
+        <img src={tutorImage}  alt="Tutor Profile" height={"100px"} />
       </div>
       <ul className="key-elements-list">
         <li className="setting">SETTING</li>

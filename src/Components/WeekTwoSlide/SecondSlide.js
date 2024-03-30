@@ -8,51 +8,51 @@ import "../WeekOneSlide/FirstSlide.css";
 
 export default function SecondSlide() {
   return (
-    <div className="main-content">
-      <h1>
+    <div className="slide-content">
+      <h2>
         Can you figure out the definition of setting from the following
         examples?
-      </h1>
+      </h2>
       <p>(take a minute to think about this)</p>
       <div className="dark-light-images">
         <div>
           <div className="borderd-img-holder">
-            <img src={BeachImage}  alt="Profile Icon"/>
+            <img src={BeachImage} alt="Beach Sunny Day" />
           </div>
           <p>Sunny day at a beach</p>
         </div>
         <div>
           <div className="borderd-img-holder">
-            <img src={rainyNight}  alt="Profile Icon"/>
+            <img src={rainyNight} alt="Rainy Night" />
           </div>
           <p>A cold rainy night in a haunted house in October</p>
         </div>
       </div>
       <div>
         <p>So, what do you think the definition of setting is?</p>
-        <div>
-            
-        </div>
+        <div></div>
         <div className="flex">
-
-        <span>Any guesses?</span>
-        <div className="input-fild">
-        <input type="text" />
-        </div>
-        <div className="flex">
+          <span>Any guesses?</span>
+          <div className="input-fild">
+            <input type="text" />
+          </div>
+          <div className="flex">
             <span>Hint:</span>
-            <img src={watchIcon}  alt="Profile Icon"/>
-            <img src={homeIcon}  alt="Profile Icon"/>
-        </div>
+            <img src={watchIcon} alt="Watch Icon" />
+            <img src={homeIcon} alt="Home Icon" />
+          </div>
         </div>
         <div></div>
       </div>
-      
-        <p className="bg-info">
-          Setting is the time <img src={watchIcon} width={"25px"}  alt="Profile Icon"/> and place <img src={homeIcon}  alt="Profile Icon" width={"25px"}/> of a
-          story. It often answers the questions: when? and where?
-        </p>
-      
+
+      <p className="flex">
+        <span>Setting is the time</span>
+        <img src={watchIcon} width={"25px"} alt="Watch Icon" /> 
+        <span>and place</span>
+        <img src={homeIcon} alt="Home Icon" width={"25px"} /> 
+        <span>of a story. It often answers the questions: when? and where?</span>
+      </p>
+
       <p>
         The time of the story could be in the past, future, day, night, summer
         or winter. A story may take place in a school, a mall, a desert, an

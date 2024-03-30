@@ -1,8 +1,11 @@
+@import '../../App.css';
+
+
 .App {
     font-family: "Times New Roman", serif;
     width: 80%;
     margin: 1rem auto;
-    background-color: #f8d1e0;
+    background-color: var(--primary-color);
     color: rgb(33, 33, 33);
   
     background-image: url("../../Images/left-curve.png"),
@@ -23,3 +26,5 @@
       width:100vw;
     }
   }
+
+  

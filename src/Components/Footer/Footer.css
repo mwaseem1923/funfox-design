@@ -1,16 +1,20 @@
 .footer {
     margin: 0 70px;
   }
-  .slide-controls > img{
+  .slide-controls > .slide-control-icon {
     cursor: pointer;
   }
-  .flex-controlls,.slide-controls {
+  
+  .footer-content, .slide-controls {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .slide-number{
+  
+  .slide-number {
     background-color: #CD3F97;
     color: white;
-    padding:  0 1rem;
+    padding: 0 1rem;
   }
+  
+  

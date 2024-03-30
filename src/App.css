@@ -1,0 +1,44 @@
+:root {
+    /* Colors */
+    --primary-color: #F8D1E0;
+    --secondary-color: #FE6784;
+    --tertiary-color: #25A3A1;
+    --tertiary-color-border: #A4FDFB;
+    
+  
+    /* Fonts */
+    --primary-font: 'Arial', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+  
+    /* Borders */
+    --border-width: 2px;
+    --border-style: dashed;
+    --border-radius: 4px;
+  
+    /* Others */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Example usage */
+  body {
+    font-family: var(--primary-font);
+    color: var(--dark-color);
+  }
+  p{
+    font-size: 18px;
+  }
+  
+  .btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: var(--border-width) var(--border-style) var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+  }
+  
+  .card {
+    background-color: var(--light-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+  
